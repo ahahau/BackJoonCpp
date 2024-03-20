@@ -1,15 +1,18 @@
-//#include<iostream>
-//using namespace std;
-//int main()
-//{
-//	int a, b,c,d = 0;
-//	int length;
-//	int* array = new int[length];
-//	cin >> a >> b;
-//	for (int i = 0; i < length; i++)
-//	{
-//		cin >> array[i];
-//	}
-//	cout << d;
-//}
+#include<iostream>
+using namespace std;
+int cal(int a, int b);
+int main()
+{
+	int a, b,r;
+	cin >> a >> b;
+	while (true)
+	{
+		if (b == 0)
+			break;
+		r = a / b;
+		a = b;
+		b = r;
+	}
+	cout << a;
+}
 
