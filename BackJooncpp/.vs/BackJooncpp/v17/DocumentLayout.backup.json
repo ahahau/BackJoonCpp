@@ -3,16 +3,23 @@
   "WorkspaceRootPath": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1181.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\1181.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.43.34808\\INCLUDE\\XUTILITY||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1546.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\1546.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2798.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\2798.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2839.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\2839.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2798.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\2798.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1002.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,6 +54,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "xutility",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
+              "ViewState": "AgIAAEsGAAAAAAAAAAAMwFoGAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-28T05:19:19.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1181.cpp",
+              "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1181.cpp",
+              "RelativeDocumentMoniker": "BackJooncpp\\1181.cpp",
+              "ToolTip": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1181.cpp*",
+              "RelativeToolTip": "BackJooncpp\\1181.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-28T05:01:10.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "2798.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2798.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\2798.cpp",
@@ -59,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "2839.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2839.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\2839.cpp",
@@ -67,24 +100,25 @@
               "RelativeToolTip": "BackJooncpp\\2839.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-26T13:28:27.924Z"
+              "WhenOpened": "2025-03-26T13:28:27.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "1546.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1546.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1546.cpp",
               "ToolTip": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1546.cpp",
               "RelativeToolTip": "BackJooncpp\\1546.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-26T11:17:58.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Test.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\Test.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\Test.cpp",
@@ -96,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "1978.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1978.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1978.cpp",
@@ -108,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "1024.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1024.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1024.cpp",
@@ -120,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "1002.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1002.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1002.cpp",
