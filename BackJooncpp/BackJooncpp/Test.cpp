@@ -1,18 +1,20 @@
-//#include<iostream>
-//using namespace std;
-//int cal(int a, int b);
-//int main()
-//{
-//	int a, b,r;
-//	cin >> a >> b;
-//	while (true)
-//	{
-//		if (b == 0)
-//			break;
-//		r = a / b;
-//		a = b;
-//		b = r;
-//	}
-//	cout << a;
-//}
-//
+#include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+	int inp,a,b;
+	cin >> inp;
+	vector<int> v;
+	for (int i = 0; i < inp; i++)
+	{
+		cin >> a >> b;
+		v.push_back(a + b);
+	}
+	for (int i = 0; i < inp; i++)
+	{
+		int k = i + 1;
+		cout << "Case #" << k << ": " << v[i] << endl;
+	}
+}
+
