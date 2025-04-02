@@ -29,6 +29,7 @@
     <ClCompile Include="1978.cpp" />
     <ClCompile Include="2798.cpp" />
     <ClCompile Include="2839.cpp" />
+    <ClCompile Include="7568.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
