@@ -1,6 +1,2 @@
-﻿  7568.cpp
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\7568.cpp(12,6): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\7568.cpp(12,9): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
-  Test.cpp
-  코드를 생성하고 있습니다...
+﻿  1920.cpp
   BackJooncpp.vcxproj -> C:\GitFork\BackJoonCpp\BackJooncpp\x64\Debug\BackJooncpp.exe
