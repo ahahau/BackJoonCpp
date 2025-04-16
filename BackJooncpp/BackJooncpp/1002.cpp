@@ -2,47 +2,47 @@
 #include <cmath>
 using namespace std;
 
-//¹®Á¦
-	//À§Ä¡¸¦ ±¸ÇÏ´Â ¹®Á¦
-	//Ã¹¹øÂ°ÁÙ¿¡ ¸î°³ÀÇ ÁÙÀÌ ³ª¿À´ÂÁö ³ª¿È
-	//intÇü º¯¼ö 6°³·Î ÀÌ·ç¾îÁø ¹è¿­ º¯¼ö°¡ ³ª¿È
-	//¼ø¼­´ë·Î x1(ÁÂÇ¥),y1(ÁÂÇ¥),t1(°Å¸®),x2(ÁÂÇ¥),y2(ÁÂÇ¥),t2(°Å¸®)
-	//°¢ ÄÉÀÌ½º¸¶´Ù À§Ä¡ÀÇ ¼ö¸¦ Ãâ·Â À§Ä¡¼ö°¡ ¹«ÇÑÀÏ°æ¿ì -1 Ãâ·Â
+//ë¬¸ì œ
+	//ìœ„ì¹˜ë¥¼ êµ¬í•˜ëŠ” ë¬¸ì œ
+	//ì²«ë²ˆì§¸ì¤„ì— ëª‡ê°œì˜ ì¤„ì´ ë‚˜ì˜¤ëŠ”ì§€ ë‚˜ì˜´
+	//intí˜• ë³€ìˆ˜ 6ê°œë¡œ ì´ë£¨ì–´ì§„ ë°°ì—´ ë³€ìˆ˜ê°€ ë‚˜ì˜´
+	//ìˆœì„œëŒ€ë¡œ x1(ì¢Œí‘œ),y1(ì¢Œí‘œ),t1(ê±°ë¦¬),x2(ì¢Œí‘œ),y2(ì¢Œí‘œ),t2(ê±°ë¦¬)
+	//ê° ì¼€ì´ìŠ¤ë§ˆë‹¤ ìœ„ì¹˜ì˜ ìˆ˜ë¥¼ ì¶œë ¥ ìœ„ì¹˜ìˆ˜ê°€ ë¬´í•œì¼ê²½ìš° -1 ì¶œë ¥
 
-	//Ç®ÀÌ ¹æ¹ý
-	//1. Ã¹¹øÂ°ÁÙ¿¡¼­ intÇü º¯¼ö¸¦ ¹Þ¾Æ¿È
-	//2. 6Ä­Â¥¸® ¹è¿­À» 1¹ø¿¡¼­ ¹Þ¾Æ¿Â º¯¼ö¸¸Å­ ¹Þ¾Æ¿È
-	//3. x,yÁÂÇ¥¿¡¼­ t¶ó´Â ¹ÝÁö¸§À» ±âÁØÀ¸·Î ¿øÀ» ±×·ÈÀ»¶§ µÎ¿øÀÌ ¸î¹ø °ãÄ¡´ÂÁö ¾Ë¾Æ¾ßÇÔ
-	//4. ¸¸¾à ¿øÀÇ À§Ä¡¿Í °Å¸®°¡ °°´Ù¸é -1À» Ãâ·ÂÇÏ¸é‰Î
-	//5. µÎ¿øÀ» Á÷¼±À¸·Î ÀÌÀº °ªÀÌ t1 + t2°ú °°´Ù¸é 1 ÀÛ´Ù¸é 2 Å©´Ù¸é 0
+	//í’€ì´ ë°©ë²•
+	//1. ì²«ë²ˆì§¸ì¤„ì—ì„œ intí˜• ë³€ìˆ˜ë¥¼ ë°›ì•„ì˜´
+	//2. 6ì¹¸ì§œë¦¬ ë°°ì—´ì„ 1ë²ˆì—ì„œ ë°›ì•„ì˜¨ ë³€ìˆ˜ë§Œí¼ ë°›ì•„ì˜´
+	//3. x,yì¢Œí‘œì—ì„œ të¼ëŠ” ë°˜ì§€ë¦„ì„ ê¸°ì¤€ìœ¼ë¡œ ì›ì„ ê·¸ë ¸ì„ë•Œ ë‘ì›ì´ ëª‡ë²ˆ ê²¹ì¹˜ëŠ”ì§€ ì•Œì•„ì•¼í•¨
+	//4. ë§Œì•½ ì›ì˜ ìœ„ì¹˜ì™€ ê±°ë¦¬ê°€ ê°™ë‹¤ë©´ -1ì„ ì¶œë ¥í•˜ë©´Â‰
+	//5. ë‘ì›ì„ ì§ì„ ìœ¼ë¡œ ì´ì€ ê°’ì´ t1 + t2ê³¼ ê°™ë‹¤ë©´ 1 ìž‘ë‹¤ë©´ 2 í¬ë‹¤ë©´ 0
 void Calculation(int array[6]) {
     int x1 = array[0], y1 = array[1], r1 = array[2];
     int x2 = array[3], y2 = array[4], r2 = array[5];
 
-    // µÎ ¿øÀÇ Áß½É °Å¸®ÀÇ Á¦°ö °è»ê
+    // ë‘ ì›ì˜ ì¤‘ì‹¬ ê±°ë¦¬ì˜ ì œê³± ê³„ì‚°
     int distSquared = (x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1);
-    int rSumSquared = (r1 + r2) * (r1 + r2); // µÎ ¹ÝÁö¸§ÀÇ ÇÕÀÇ Á¦°ö
-    int rDiffSquared = (r1 - r2) * (r1 - r2); // µÎ ¹ÝÁö¸§ÀÇ Â÷ÀÇ Á¦°ö
+    int rSumSquared = (r1 + r2) * (r1 + r2); // ë‘ ë°˜ì§€ë¦„ì˜ í•©ì˜ ì œê³±
+    int rDiffSquared = (r1 - r2) * (r1 - r2); // ë‘ ë°˜ì§€ë¦„ì˜ ì°¨ì˜ ì œê³±
 
-    // µÎ ¿øÀÌ ¿ÏÀüÈ÷ µ¿ÀÏÇÑ °æ¿ì 
+    // ë‘ ì›ì´ ì™„ì „ížˆ ë™ì¼í•œ ê²½ìš° 
     if (x1 == x2 && y1 == y2 && r1 == r2) {
         cout << -1 << endl;
         return;
     }
 
-    // ¿ÜÁ¢ÇÏ´Â °æ¿ì 
+    // ì™¸ì ‘í•˜ëŠ” ê²½ìš° 
     if (distSquared == rSumSquared || distSquared == rDiffSquared) {
         cout << 1 << endl;
         return;
     }
 
-    // µÎ Á¡¿¡¼­ ¸¸³ª´Â °æ¿ì
+    // ë‘ ì ì—ì„œ ë§Œë‚˜ëŠ” ê²½ìš°
     if (rDiffSquared < distSquared && distSquared < rSumSquared) {
         cout << 2 << endl;
         return;
     }
 
-    // ¸¸³ªÁö ¾Ê´Â °æ¿ì
+    // ë§Œë‚˜ì§€ ì•ŠëŠ” ê²½ìš°
     cout << 0 << endl;
 }
 
@@ -56,6 +56,7 @@ int main() {
             cin >> arr[j];
         }
         Calculation(arr);
+//
     }
 }
 
