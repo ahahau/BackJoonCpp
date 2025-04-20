@@ -1,2 +1,69 @@
-﻿  2869.cpp
-  BackJooncpp.vcxproj -> C:\GitFork\BackJoonCpp\BackJooncpp\x64\Debug\BackJooncpp.exe
+﻿  10814.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(1627,23): error C2064: 항은 2개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  (소스 파일 '10814.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(1627,23):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\10814.cpp(19,3):
+          컴파일되는 함수 템플릿 인스턴스화 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool>(const _RanIt,const _RanIt,_Pr)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=std::string,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::string>>>,
+              _Pr=bool
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8373,10):
+          컴파일되는 함수 템플릿 인스턴스화 'void std::_Sort_unchecked<std::basic_string<char,std::char_traits<char>,std::allocator<char>>*,_Fn>(_RanIt,_RanIt,__int64,_Pr)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Fn=bool,
+              _RanIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *,
+              _Pr=bool
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8343,18):
+          컴파일되는 함수 템플릿 인스턴스화 '_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)'에 대한 참조를 확인하세요.
+          with
+          [
+              _BidIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *,
+              _RanIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *,
+              _Pr=bool
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8218,17):
+          컴파일되는 함수 템플릿 인스턴스화 'bool std::_Debug_lt_pred<_Pr&,std::basic_string<char,std::char_traits<char>,std::allocator<char>>&,std::basic_string<char,std::char_traits<char>,std::allocator<char>>&>(bool&,_Ty1,_Ty2) noexcept(<expr>)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Pr=bool,
+              _Ty1=std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,
+              _Ty2=std::basic_string<char,std::char_traits<char>,std::allocator<char>> &
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(1620,32): error C2064: 항은 2개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  (소스 파일 '10814.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(1620,32):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(1627,48):
+          컴파일되는 변수 템플릿 'const bool _Debug_lt_pred_order_check_noexcept<bool &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,1>'에 대한 참조를 확인하세요.
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(1620,5): error C2056: 식이 잘못되었습니다.
+  (소스 파일 '10814.cpp'을(를) 컴파일하는 중)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8276,16): error C2064: 항은 2개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  (소스 파일 '10814.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8276,16):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8354,26):
+          컴파일되는 함수 템플릿 인스턴스화 'std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)'에 대한 참조를 확인하세요.
+          with
+          [
+              _RanIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *,
+              _Pr=bool
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8280,76): error C2064: 항은 2개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  (소스 파일 '10814.cpp'을(를) 컴파일하는 중)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8291,24): error C2064: 항은 2개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  (소스 파일 '10814.cpp'을(를) 컴파일하는 중)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\algorithm(8305,24): error C2064: 항은 2개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  (소스 파일 '10814.cpp'을(를) 컴파일하는 중)
+  
