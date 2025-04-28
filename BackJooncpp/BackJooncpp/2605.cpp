@@ -3,11 +3,13 @@
 #include <vector>
 using namespace std;
 
-int main() {
+int main() 
+{
 	int a, b;
 	cin >> a;
 	vector<int>arr(a);
-	for (int i = 1; i <= a; i++) {
+	for (int i = 1; i <= a; i++) 
+	{
 		cin >> b;
 		arr.insert(arr.begin() + b, i);
 	}
