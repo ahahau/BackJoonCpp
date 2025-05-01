@@ -1,30 +1,36 @@
-//#include<iostream>
-//#include<vector>
-//using namespace std;
-//int main()
-//{
-//	int dead, inp,min = 10000000000;
-//	cin >> dead >> inp;
-//	vector<int> six(inp);
-//	vector<int> one(inp);
-//	for (int i = 0; i < inp; i++)
-//	{
-//		cin >> six[i] >> one[i];
-//	}
-//	for (int i = 0; i < inp; i++)
-//	{
-//		int cdead = dead;
-//		int cnt = 0;
-//		cnt += six[i] * (cdead / 6);
-//		cdead %= 6;
-//		if (six[i] < one[i] * cdead)
-//			cnt += six[i];
-//		else
-//			cnt += one[i] * cdead;
-//
-//		if (min > cnt)
-//			min = cnt;
-//		cout << cnt << endl;
-//	}
-//	cout << min;
-//}
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+int main()
+{
+	int dead, inp,sdead, cnt = 0;
+	cin >> dead >> inp;
+	vector<int> six(inp);
+	vector<int> one(inp);
+	for (int i = 0; i < inp; i++)
+	{
+		cin >> six[i] >> one[i];
+	}
+	sort(six.begin(), six.end());
+	sort(one.begin(), one.end());
+	sdead = dead / 6;
+	if (six[0] < one[0] * 6)
+	{
+		dead %= 6;
+		cnt = sdead * six[0];
+		if (six[0] < one[0] * dead)
+		{
+			cnt += six[0];
+		}
+		else 
+		{
+			cnt += one[0] * dead;
+		}
+	}
+	else 
+	{
+		cnt += one[0] * dead;
+	}
+	cout << cnt;
+}
