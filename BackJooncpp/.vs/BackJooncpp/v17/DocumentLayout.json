@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\5430.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\5430.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\11651.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\11651.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -61,9 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2164.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\2164.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,19 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "xutility",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
-              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
-              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xutility",
-              "ViewState": "AgIAAEUGAAAAAAAAAAAAwFMGAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-12T10:45:15.35Z"
+              "DocumentIndex": 0,
+              "Title": "5430.cpp",
+              "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\5430.cpp",
+              "RelativeDocumentMoniker": "BackJooncpp\\5430.cpp",
+              "ToolTip": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\5430.cpp",
+              "RelativeToolTip": "BackJooncpp\\5430.cpp",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwE4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-13T08:10:55.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "11651.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\11651.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\11651.cpp",
@@ -106,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "1269.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1269.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1269.cpp",
@@ -118,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "1267.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1267.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1267.cpp",
@@ -130,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "1233.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1233.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1233.cpp",
@@ -142,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "2108.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2108.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\2108.cpp",
@@ -154,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "1418.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1418.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1418.cpp",
@@ -166,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "1105.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1105.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1105.cpp",
@@ -178,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "1065.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1065.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1065.cpp",
@@ -190,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "1225.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1225.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1225.cpp",
@@ -202,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "1075.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1075.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1075.cpp",
@@ -214,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "1212.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1212.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1212.cpp",
@@ -226,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "1333.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1333.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1333.cpp",
@@ -238,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "1037.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1037.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1037.cpp",
@@ -250,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "1049.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\1049.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\1049.cpp",
@@ -262,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "2164.cpp",
               "DocumentMoniker": "C:\\GitFork\\BackJoonCpp\\BackJooncpp\\BackJooncpp\\2164.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\2164.cpp",
