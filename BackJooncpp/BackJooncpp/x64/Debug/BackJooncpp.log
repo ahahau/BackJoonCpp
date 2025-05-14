@@ -1,9 +1,2 @@
-﻿  1074.cpp
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1074.cpp(16,14): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1074.cpp(17,9): warning C4244: '-=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1074.cpp(21,9): warning C4244: '-=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1074.cpp(22,9): warning C4244: '-=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1074.cpp(23,19): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1074.cpp(27,9): warning C4244: '-=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1074.cpp(28,19): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  1931.cpp
   BackJooncpp.vcxproj -> C:\GitFork\BackJoonCpp\BackJooncpp\x64\Debug\BackJooncpp.exe
