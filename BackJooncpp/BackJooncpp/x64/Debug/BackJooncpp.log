@@ -1,2 +1,4 @@
-﻿  1931.cpp
+﻿  1018.cpp
+C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1018.cpp(39,15): warning C4305: '초기화 중': '__int64'에서 'int'(으)로 잘립니다.
+C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\1018.cpp(39,17): warning C4309: '초기화 중': 상수 값이 잘립니다.
   BackJooncpp.vcxproj -> C:\GitFork\BackJoonCpp\BackJooncpp\x64\Debug\BackJooncpp.exe
