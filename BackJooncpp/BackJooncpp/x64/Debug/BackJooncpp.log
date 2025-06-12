@@ -1,3 +1,2 @@
-﻿  7785.cpp
-C:\GitFork\BackJoonCpp\BackJooncpp\BackJooncpp\7785.cpp(31,13): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  1417.cpp
   BackJooncpp.vcxproj -> C:\GitFork\BackJoonCpp\BackJooncpp\x64\Debug\BackJooncpp.exe
