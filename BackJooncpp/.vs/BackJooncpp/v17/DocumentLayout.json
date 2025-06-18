@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Sourcetree\\BackJooncpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\Sourcetree\\BackJooncpp\\BackJooncpp\\1769.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\1769.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|C:\\Sourcetree\\BackJooncpp\\BackJooncpp\\3135.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{634C62EC-C6C0-4490-8752-2D654B1E99B7}|BackJooncpp\\BackJooncpp.vcxproj|solutionrelative:BackJooncpp\\3135.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "1769.cpp",
+              "DocumentMoniker": "C:\\Sourcetree\\BackJooncpp\\BackJooncpp\\1769.cpp",
+              "RelativeDocumentMoniker": "BackJooncpp\\1769.cpp",
+              "ToolTip": "C:\\Sourcetree\\BackJooncpp\\BackJooncpp\\1769.cpp",
+              "RelativeToolTip": "BackJooncpp\\1769.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-18T09:44:33.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "3135.cpp",
               "DocumentMoniker": "C:\\Sourcetree\\BackJooncpp\\BackJooncpp\\3135.cpp",
               "RelativeDocumentMoniker": "BackJooncpp\\3135.cpp",
