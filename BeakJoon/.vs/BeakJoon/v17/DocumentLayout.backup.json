@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Fork\\BackJoonCpp\\BeakJoon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7397BEFC-8635-44A2-AF33-5D557BCDA934}|BeakJoon\\BeakJoon.vcxproj|C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\3213.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7397BEFC-8635-44A2-AF33-5D557BCDA934}|BeakJoon\\BeakJoon.vcxproj|solutionrelative:BeakJoon\\3213.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7397BEFC-8635-44A2-AF33-5D557BCDA934}|BeakJoon\\BeakJoon.vcxproj|C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\3060.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7397BEFC-8635-44A2-AF33-5D557BCDA934}|BeakJoon\\BeakJoon.vcxproj|solutionrelative:BeakJoon\\3060.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -55,19 +59,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "3213.cpp",
+              "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\3213.cpp",
+              "RelativeDocumentMoniker": "BeakJoon\\3213.cpp",
+              "ToolTip": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\3213.cpp",
+              "RelativeToolTip": "BeakJoon\\3213.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-26T08:05:57.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "3060.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\3060.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\3060.cpp",
               "ToolTip": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\3060.cpp",
               "RelativeToolTip": "BeakJoon\\3060.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-25T08:06:50.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "5426.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\5426.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\5426.cpp",
@@ -75,12 +92,11 @@
               "RelativeToolTip": "BeakJoon\\5426.cpp",
               "ViewState": "AgIAABMAAAAAAAAAAAAcwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-23T10:54:12.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T10:54:12.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "1948.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\1948.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\1948.cpp",
@@ -92,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "3049.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\3049.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\3049.cpp",
@@ -104,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "1427.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\1427.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\1427.cpp",
@@ -116,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "1590.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\1590.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\1590.cpp",
@@ -128,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "9012.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\9012.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\9012.cpp",
@@ -140,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "15736.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\15736.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\15736.cpp",
@@ -152,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Test.cpp",
               "DocumentMoniker": "C:\\Fork\\BackJoonCpp\\BeakJoon\\BeakJoon\\Test.cpp",
               "RelativeDocumentMoniker": "BeakJoon\\Test.cpp",
