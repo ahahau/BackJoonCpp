@@ -1,34 +1,36 @@
 #include <iostream>
+
 using namespace std;
 
-int main() {
-    long long x, y;
-    cin >> x >> y;
 
-    int befZ = (y * 100) / x;
+bool check(int n) 
+{
 
-    if (befZ >= 99) 
-    {
-        cout << -1;
-        return 0;
-    }
+	int hun = n / 100;
+	int ten = n / 10 % 10;
+	int one = n % 10;
 
-    long long a = 1, b = 1e9, ans = -1;
+	if (hun - ten == ten - one) return true;
 
-    while (a <= b) 
-    {
-        long long mid = (a + b) / 2;
-        long long newZ = ((y + mid) * 100) / (x + mid);
-        if (newZ > befZ) 
-        {
-            ans = mid;
-            b = mid - 1; 
-        }
-        else 
-        {
-            a = mid + 1;
-        }
-    }
+	return false;
+}
 
-    cout << ans;
+
+int main() 
+{
+
+	int n;
+	int ans;
+
+	cin >> n;
+	if (n >= 99) ans = 99;
+	else ans = n;
+
+	for (int i = 100; i <= n; i++) 
+	{
+		if (check(i)) ans++;
+	}
+
+	cout << ans;
+
 }
