@@ -1,3 +1,3 @@
-﻿  1076.cpp
-C:\Fork\BackJoonCpp\BeakJoon\BeakJoon\1076.cpp(31,37): warning C4244: '=': 'double'에서 '__int64'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  9095.cpp
+C:\Fork\BackJoonCpp\BeakJoon\BeakJoon\9095.cpp(16,1): warning C4715: 'Cal': 모든 제어 경로에서 값을 반환하지는 않습니다.
   BeakJoon.vcxproj -> C:\Fork\BackJoonCpp\BeakJoon\x64\Debug\BeakJoon.exe
