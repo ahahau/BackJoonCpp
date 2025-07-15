@@ -1,2 +1,3 @@
-﻿  1453.cpp
-  BeakJoon.vcxproj -> C:\Fork\BackJoonCpp\BeakJoon\x64\Debug\BeakJoon.exe
+﻿  1592.cpp
+C:\Fork\BackJoonCpp\BeakJoon\BeakJoon\1592.cpp(10,1): error C4700: 초기화되지 않은 'cur' 지역 변수를 사용했습니다.
+C:\Fork\BackJoonCpp\BeakJoon\BeakJoon\1592.cpp(18,1): error C4700: 초기화되지 않은 'cnt' 지역 변수를 사용했습니다.
