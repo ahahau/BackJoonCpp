@@ -1,31 +1,26 @@
 #include<iostream>
+#include<vector>
 using namespace std;
-int Cal(int a, int b);
-int Cal2(int a, int b);
 int main()
 {
-	int a, b;
-	cin >> a >> b;
-	cout << Cal(a,b) << endl << Cal2(a,b);
-}
-
-int Cal(int a, int b)
-{
-	if (b == 0)
-		return a;
-	return Cal(b, a % b);
-}
-
-int Cal2(int a, int b)
-{
-	int min = std ::min(a, b);
-	int max = std ::max(a, b);
-	for (int i = 1; i <= max; i++)
+	int inp, ran, ans = 0;
+	cin >> inp >> ran;
+	vector<int> arr(inp);
+	for (int i = 0; i < inp; i++)
 	{
-		if ((i * min) % max == 0)
+		cin >> arr[i];
+	}
+	for (int i = 0; i < inp; i++)
+	{
+		for (int j = i+1; j < inp; j++)
 		{
-			return (i * min);
+			for (int s = j+1; s < inp; s++)
+			{
+				int a = arr[i] + arr[j] + arr[s];
+				if (a <= ran && a > ans)
+					ans = a;
+			}
 		}
 	}
-	return(a * b);
+	cout << ans;
 }

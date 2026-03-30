@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int N, deleteNode, root;
+int inp, deleteNode, root;
 vector<int> tree[50];
 int leafCount = 0;
 
@@ -23,9 +23,9 @@ void dfs(int node)
 
 int main() 
 {
-    cin >> N;
-    vector<int> parent(N);
-    for (int i = 0; i < N; ++i) 
+    cin >> inp;
+    vector<int> parent(inp);
+    for (int i = 0; i < inp; ++i) 
     {
         cin >> parent[i];
         if (parent[i] == -1) root = i;
